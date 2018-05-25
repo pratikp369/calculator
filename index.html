@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/cal.css">
+	<script type="text/javascript" src="js/cal.js"></script>
+</head>
+<body>
+<center>
+	<h2>Calculator</h2>
+	<table>
+		<tr>
+			<td>
+<input type="num1" name="num1" id="num1">
+             </td>
+		</tr>
+		<tr>
+			<td>
+<input type="num2" name="num2" onchange="change()" id="num2">
+             </td>
+		</tr>
+         <tr>
+			<td>
+Select Operator :<br/>
+<select id="sel">
+	<option value="+">+(Addition)</option>
+	<option value="-">-(Substraction)</option>
+	<option value="*">*(Multiplication)</option>
+	<option value="/">/(Division)</option>
+	<option value="%">%(Modulo)</option>
+</select>
+       </td>
+			</tr>
+			<tr>
+			<td>
+				<button value="calculate" onclick="calculate()">
+					calculate
+				</button>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<label id="ans"></label>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<label id="d"></label>
+			</td>
+			</tr>
+</table></center>
+</body>
+</html>

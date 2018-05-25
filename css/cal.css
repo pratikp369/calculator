@@ -1,0 +1,14 @@
+h2{
+	background: transparent;
+	background-color: blue;
+	text-shadow: dashed;
+}
+input{
+	background-color: gold;
+}
+body{
+	background-color: silver;
+}
+select{
+	background-color: gold;
+}
